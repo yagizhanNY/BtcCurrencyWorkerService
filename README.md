@@ -1,9 +1,9 @@
 ﻿## BTC Currency Service
 
 #### API Source
-For get current BTC currency using [!blockchain-api](https://blockchain.info/ticker)
+For get current BTC currency using [this url.](https://blockchain.info/ticker)
 
-Response:
+API Response:
 
 ```json
 {
@@ -31,4 +31,10 @@ Response:
   "TRY" : {"15m" : 124602.62, "last" : 124602.62, "buy" : 124602.62, "sell" : 124602.62, "symbol" : "₺"},
   "TWD" : {"15m" : 452293.38, "last" : 452293.38, "buy" : 452293.38, "sell" : 452293.38, "symbol" : "NT$"}
 }
+```
+
+You can change your current currency from:
+
+```csharp
+apiClient.GetCurrentCurrency("TRY");
 ```
