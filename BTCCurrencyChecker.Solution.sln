@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTCCurrency.Service", "BTCCurrency.Service\BTCCurrency.Service.csproj", "{D91AE46F-B018-441B-A9B2-666E52378393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiClient.Library", "WebClient.Library\ApiClient.Library.csproj", "{D1AB8C77-031D-4594-80C9-1C8A3F32E127}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PercentCheck.Library", "PercentCheck.Library\PercentCheck.Library.csproj", "{F897CA40-27F7-4D7F-B2B8-3B7457710568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mail.Library", "Mail.Library\Mail.Library.csproj", "{E5E1A97B-060F-4301-A7B2-FFF9E93C43E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.ConsoleApp", "Test.Console7\Test.ConsoleApp.csproj", "{80A0AB4B-6600-43E3-94A3-24FC8E2375F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0EFB871F-A8C1-453F-AE3F-525C88B91394}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D91AE46F-B018-441B-A9B2-666E52378393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91AE46F-B018-441B-A9B2-666E52378393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91AE46F-B018-441B-A9B2-666E52378393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91AE46F-B018-441B-A9B2-666E52378393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1AB8C77-031D-4594-80C9-1C8A3F32E127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AB8C77-031D-4594-80C9-1C8A3F32E127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AB8C77-031D-4594-80C9-1C8A3F32E127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AB8C77-031D-4594-80C9-1C8A3F32E127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F897CA40-27F7-4D7F-B2B8-3B7457710568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F897CA40-27F7-4D7F-B2B8-3B7457710568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F897CA40-27F7-4D7F-B2B8-3B7457710568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F897CA40-27F7-4D7F-B2B8-3B7457710568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E1A97B-060F-4301-A7B2-FFF9E93C43E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E1A97B-060F-4301-A7B2-FFF9E93C43E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E1A97B-060F-4301-A7B2-FFF9E93C43E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E1A97B-060F-4301-A7B2-FFF9E93C43E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A0AB4B-6600-43E3-94A3-24FC8E2375F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A0AB4B-6600-43E3-94A3-24FC8E2375F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A0AB4B-6600-43E3-94A3-24FC8E2375F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A0AB4B-6600-43E3-94A3-24FC8E2375F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4126B16-2ECE-4EDE-A2F7-735F6D466FD1}
+	EndGlobalSection
+EndGlobal
